@@ -1,0 +1,101 @@
+html,
+body,
+header,
+#intro {
+    height: 100%;
+}
+
+#intro {
+    background: url("../img/NN.jpg")no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+.nav-link{
+  font-family: 'Alice', serif;
+}
+.top-nav-collapse {
+    background-color: #24355C;
+  }
+
+
+
+.navbar img{
+  height:70px;
+  width:70px;
+}
+
+.more:hover{
+box-shadow: 0px 0px 35px rgb(60,90,153);
+color: rgb(60,90,153);
+}
+
+
+
+.soc-container{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.social{
+   display: flex;
+   justify-content: space-between;
+  padding:10px 0;
+  width:400px;
+}
+
+.social__item{
+  padding:0 10px 0 10px;
+  width:60px;
+  height:60px;
+  border-radius: 50%;
+  border:2px solid grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size:25px;
+}
+
+.facebook:hover{
+border-color: rgb(60,90,153);
+box-shadow: 0px 0px 35px rgb(60,90,153);
+color: rgb(60,90,153);
+}
+
+.vk:hover{
+border-color: #4c75a3;
+box-shadow: 0px 0px 35px #4c75a3;
+color: #4c75a3;
+}
+
+.instagram:hover{
+  border-color:#0088cc;
+  color:#0088cc;
+  box-shadow: 0px 0px 35px #0088cc;
+}
+
+.twitter:hover{
+  border-color:#00acee;
+  color:#00acee;
+  box-shadow: 0px 0px 35px #00acee;
+}
+
+  @media (max-width: 768px) {
+    .navbar:not(.top-nav-collapse) {
+      background-color: #24355C;
+    }
+
+  }
+
+  @media (min-width: 800px) and (max-width: 850px) {
+    .navbar:not(.top-nav-collapse) {
+      background-color: #24355C;
+    }
+
+
+  }
